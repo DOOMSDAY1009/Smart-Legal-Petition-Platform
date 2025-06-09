@@ -1,0 +1,73 @@
+package com.org.entity;
+
+public class User {
+	
+	private int id;
+	private String fullname;
+	private String email;
+	private String password;
+	private String phone_number;
+	
+	//consructer fields
+	public User(String fullname, String email, String password, String phone_number) {
+		super();
+		this.fullname = fullname;
+		this.email = email;
+		this.password = password;
+		this.phone_number = phone_number;
+	}
+	
+	//no-arg constructer
+	public User() 
+	{
+		super();
+	}
+	
+	//getters and setters
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getFullname() {
+		return fullname;
+	}
+
+	public void setFullname(String fullname) {
+		this.fullname = fullname;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	public String getphone_number() {
+		return phone_number;
+	}
+
+	public void setphone_number(String phone_number) {
+		this.phone_number = phone_number;
+	}
+	
+	
+	
+	
+	
+	
+
+}
